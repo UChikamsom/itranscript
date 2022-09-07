@@ -163,6 +163,15 @@
     width: 60px;
 }
 
+.login {
+    text-align: right;
+    margin: 10px;
+}
+
+.login a {
+    color: green;
+}
+
 .login-image {
     width: 450px;
     height: 300px;
@@ -245,11 +254,24 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: blue;
+    background-color: rgb(221, 221, 221);
 }
 
 nav div {
     margin: 10px 20px;
+}
+
+.sign-out-icon {
+    display: flex;
+}
+
+.sign-out-icon svg {
+    margin: 2px 5px 0px 0px;
+}
+
+.cart-container {
+    display: flex;
+    padding: 0px 70px;
 }
 
 .logos-image img {
@@ -269,6 +291,21 @@ nav div {
     padding: 70px 15px;
     line-height: 50px;
     margin-right: 20px;
+}
+
+.dashboard-sidebar a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.dashboard-sidebar p:hover {
+    background-color: rgb(81, 97, 129);
+    border-radius: 25px;
+}
+
+.dashboard-sidebar svg {
+    margin: 25px 0px 0px 13px;
 }
 
 .dashboard {
@@ -300,6 +337,16 @@ nav div {
     margin: 7px 0px;
 }
 
+#request-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dashboard-mini-box svg {
+    margin-left: 58px;
+    color: green;
+}
+
 .dashboard-mini-box h4 {
     font-size: 15px;
 }
@@ -310,30 +357,142 @@ nav div {
     font-size: 25px;
 }
 
+.mini-link {
+    padding-bottom: 15px;
+}
+
 .max-box-text-container {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    font-size: 20px;
+}
+
+.max-box-text-container a {
+    font-size: 15px;
+    color: green;
 }
 
 .max-box-table {
     display: flex;
+    margin: 5px 0px;
 }
 
 table {
-    width: 500px;
+    width: 480px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid rgb(242, 242, 242);
 }
 
 th {
     text-align: left;
+    background-color: rgb(242, 242, 242);
+    padding: 0px 10px;
 }
 
 th,
 td {
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgb(242, 242, 242);
     border-collapse: collapse;
 }
 
-table {
-    border: 1px solid green;
+.max-box-table2 {
+    background-color: white;
+    height: 300px;
+    border-top: 5px solid green;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.max-box-table1 {
+    background-color: white;
+    width: 480px;
+    height: 300px;
+    border-top: 5px solid green;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tracking-table1 {
+    display: flex;
+}
+
+.tracking-table1-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tracking-table1-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tracking-table {
+    height: 100px;
+}
+
+.serial {
+    margin-right: 38px;
+}
+
+.range-slider input {
+    width: 430px;
+}
+
+select {
+    padding: 8px;
+    width: 300px;
+    border: 2px solid rgb(228, 242, 250);
+    background-color: rgb(228, 242, 250);
+    border-radius: 20px;
+}
+
+option {
+    background-color: white;
+    font-size: 15px;
+}
+
+.modal {
+    width: 550px;
+    max-width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0, 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+    margin: 20px 0px;
+}
+
+.modal p {
+    margin: 20px 0px;
+}
+
+.modal-button button {
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 180px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 160px 0px 0px 390px;
+    opacity: 0;
+    pointer-events: none;
 }
