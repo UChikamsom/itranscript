@@ -199,7 +199,7 @@
         margin: 20px 0px;
     }
     
-    input {
+    .input input {
         padding: 8px;
         width: 300px;
         border: 2px solid rgb(228, 242, 250);
@@ -356,6 +356,7 @@
         border: 2px solid rgb(228, 242, 250);
         background-color: rgb(228, 242, 250);
         border-radius: 20px;
+        outline: none;
     }
     
     option {
@@ -443,10 +444,14 @@
         margin-top: 6%;
     }
     
-    form input {
+    .input-options {
         margin: 1% 0% 3% 0%;
         width: 70%;
         outline: none;
+        border: 2px solid rgb(228, 242, 250);
+        background-color: rgb(228, 242, 250);
+        border-radius: 20px;
+        padding: 8px;
     }
     
     form span {
@@ -490,4 +495,26 @@
     
     .backward-btn svg {
         padding-top: 6%;
+    }
+    
+    .degree-options {
+        padding: 1.6%;
+        width: 70%;
+        border: 2px solid rgb(228, 242, 250);
+        background-color: rgb(228, 242, 250);
+        border-radius: 20px;
+    }
+    
+    .form-input {
+        padding: 8px;
+        border: 2px solid rgb(228, 242, 250);
+        background-color: rgb(228, 242, 250);
+        border-radius: 20px;
+        margin: 1% 0% 3% 0%;
+        width: 70%;
+        outline: none;
+    }
+    
+    .checkbox {
+        font-size: 18px;
     }
