@@ -249,7 +249,7 @@
         display: flex;
         justify-content: space-between;
         height: 60px;
-        background-color: blue;
+        background-color: rgb(221, 221, 221);
     }
     
     nav div {
@@ -267,12 +267,11 @@
     
     .dashboard-sidebar {
         height: 100vh;
-        width: 230px;
+        width: 20%;
         background-color: black;
         color: white;
         padding: 70px 15px;
-        line-height: 50px;
-        margin-right: 20px;
+        line-height: 450%;
     }
     
     .dashboard {
@@ -566,4 +565,81 @@
     
     .modal2 h3 {
         margin: 10%;
+    }
+    
+    .transcript-request-container {
+        display: flex;
+    }
+    
+    .transcript-request {
+        margin-top: 6%;
+    }
+    
+    .transcript-request-text {
+        width: 130%;
+        height: 88%;
+    }
+    
+    .transcript-request-text2 {
+        margin: 0% 0% 0% 13%;
+        background-color: white;
+        width: 100%;
+        max-width: 100%;
+        padding: 8% 10% 0% 10%;
+        height: 65vh;
+        border-top: 5px solid green;
+        border-radius: 8px;
+        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .transcript-request-text2 h3 {
+        padding-bottom: 2%;
+    }
+    
+    .transcript-request-text2 input {
+        margin-bottom: 2.5%;
+    }
+    
+    .transcript-request-text1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 4% 0% 1% 20%;
+    }
+    
+    .forward3-btn button {
+        padding: 0.5%;
+        margin-top: 3%;
+        width: 20%;
+        background-color: green;
+        border: 2px solid green;
+        border-radius: 30px;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .forward3-btn button a {
+        color: white;
+        text-decoration: none;
+        padding-left: 1%;
+        font-size: 20px;
+    }
+    
+    .transcript-request h2 {
+        margin: 0% 0% 0.4% 2%;
+    }
+    
+    .cart-container {
+        display: flex;
+    }
+    
+    .dashboard-sidebar svg {
+        margin: 7% 5% 0% 0%;
+    }
+    
+    .sign-out-icon svg {
+        margin-top: 1%;
+    }
+    
+    nav {
+        padding: 0% 3%;
     }
